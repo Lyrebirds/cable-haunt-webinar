@@ -1,0 +1,18 @@
+call the function at 0x8025ecc4
+call the function at 0x80280468 with the first argument being the return value from the call before, and the second argument being 1 or above.
+start infinet loop
+
+in c:
+
+typedef void *CmSnmpGetInstance();
+typedef void allowConfig(void* snmpInstance);
+
+int main(void) {
+    CmSnmpGetInstance *getInstanceFunc = (CmSnmpGetInstance *) 0x8025ecc4;
+    allowConfig *allowConfigFunc = (AllowConfig *) 0x80280468;
+
+    //implement this using rop chain:
+    void *instance = getInstanceFunc();
+    allowConfigFunc(instance, 1);
+    while(true) {}
+}
