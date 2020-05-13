@@ -40,9 +40,9 @@ Her antager vi at du i forvejen har python3 og pip3 installeret
  
 Installer disse pip pakker:
 ```bash
-RUN pip3 install --upgrade pwntools
-RUN pip3 install --upgrade future
-RUN pip3 install --upgrade filebytes
+pip3 install --upgrade pwntools
+pip3 install --upgrade future
+pip3 install --upgrade filebytes
 ```
 
 Kør nu ropper med:
