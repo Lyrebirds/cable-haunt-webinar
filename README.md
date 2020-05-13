@@ -61,4 +61,7 @@ hvis du får dette output burde alt virke:
 [LOAD] filtering badbytes... 100%
 (TC7230-EB.01.bin/RAW/MIPSBE)>
 ```
-
+## Ghidra
+Med forde kan du også installere ghidra for at berede kunne reverse engineer firmware men det er ikke en nødvendighed.
+Der ligger også en ghidra database TC7230-EB.01.gar i projekt mappen som du kan importere i ghidra.
+Den inderholde hele firmwaren med funktions navne og nogle få debug symboler.
