@@ -36,7 +36,9 @@ Hvis du nu ser en terminal med noget ala `root@91aed89ba72d:~# ` burde du være 
 ### lokalt setup
 Her antager vi at du i forvejen har python3 og pip3 installeret
 
-`git clone --recurse-submodules -j8  https://github.com/Lyrebirds/cable-haunt-webinar`
+```
+git clone --recurse-submodules -j8  https://github.com/Lyrebirds/cable-haunt-webinar
+```
  
 Installer disse pip pakker:
 ```bash
