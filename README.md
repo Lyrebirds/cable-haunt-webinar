@@ -1,6 +1,6 @@
 # Cable Haunt Webinar
 
-Dette er vores git repository med alt materiale nødvendigt til ida's webinar om cablehaunt.
+Dette er vores git repository med alt materiale nødvendigt til ida's webinar "Prøv hacking med Lyrebirds".
 
 Dette repo inderholder den modem firmware vi vil bruge under webinaret samt de tools vi får brug for.
 
