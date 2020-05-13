@@ -11,7 +11,7 @@ Skulle det ske at du ikke kan få det til at virke så deltag dog gerne aligevel
 
 ### Docker setup
  
-Start med at installere docker på din maskine. Her er en guilde til ubuntu og det burde være nogen lunde det samme på andre distros (google is you frind):
+Start med at installere docker på din maskine. Her er en guilde til ubuntu og det burde være nogenlunde det samme på andre distros (google is you frind):
 ```bash
 sudo apt-get update
 sudo apt install docker.io
