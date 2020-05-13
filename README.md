@@ -24,7 +24,7 @@ git clone https://github.com/Lyrebirds/cable-haunt-webinar
 cd cable-haunt-webinar
 ```
 
-Derefter køre disse 3 commands for at bygge og starte docker containeren. Hvis du er på Windows eller Mac skal du selvfølgelig undlade "sudo".
+Kør derefter disse 3 commands for at bygge og starte docker containeren. Hvis du er på Windows eller Mac skal du selvfølgelig undlade "sudo".
 ```bash
 sudo docker build -t cable-haunt-webinar .
 sudo docker run --name cable-haunt-webinar -d --rm -it cable-haunt-webinar
