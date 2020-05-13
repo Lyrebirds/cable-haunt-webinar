@@ -23,5 +23,4 @@ COPY . /root
 
 RUN git lfs install
 RUN git lfs pull
-RUN git pull --recurse-submodules
-
+RUN git submodule update --init --recursive
