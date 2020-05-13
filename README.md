@@ -5,7 +5,7 @@ Dette er vores git repository med alt materiale nødvendigt til ida's webinar "P
 Dette repo inderholder den modem firmware vi vil bruge under webinaret samt de tools vi får brug for.
 
 ## Setup
-Hvis du kører linux kan du selv vælge mellem Docker eller lokalt setup som beskrevet under, vi anbefaler dog Docker. Hvis kører du Windows eller Mac bliver du nød til at bruger Docker, som kan downloades her: <https://www.docker.com/products/docker-desktop>.
+Hvis du kører linux kan du selv vælge mellem Docker eller lokalt setup som beskrevet under, vi anbefaler dog Docker. Hvis du kører Windows eller Mac bliver du nød til at bruge Docker, som kan downloades her: <https://www.docker.com/products/docker-desktop>.
 Målet med understående setup er at folk for installeret værktøjet "ropper" med vores firmware, så i aktivt deltage kan deltage i webinaret.
 Skulle det ske at du ikke kan få det til at virke så deltag dog gerne aligevel, hvis tiden tilader det kan vi få det til at virker undervejs.
 
