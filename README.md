@@ -61,4 +61,4 @@ hvis du får dette output burde alt virke:
 (TC7230-EB.01.bin/RAW/MIPSBE)>
 ```
 ## Ghidra
-Med forde kan du også installere Ghidra for bedre at kunne reverse engineer firmware, dette er dog ikke en nødvendighed. Gihidra er gratis og fungerer cross-platform, <https://ghidra-sre.org/>. Efter du har installeret Ghidra kan du importere filen `TC7230-EB.01.gar` i projekt mappen. Dette er den firmware som modemmerne i vil hacke kørere, med funktions navne og nogle få debug symboler. Dette vil kunne hjælpe jer med at finde ud af hvilke funktioner vi kommer til at kalde med vores payload og derved letter kunne debugge jeres payload.
+Med forde kan du også installere Ghidra for bedre at kunne reverse engineer firmware, dette er dog ikke en nødvendighed. Gihidra er gratis og fungerer cross-platform, <https://ghidra-sre.org/>. Efter du har installeret Ghidra kan du importere filen `TC7230-EB.01.gar` i projekt mappen. Dette er den firmware som modemmerne i vil hacke kører, med funktions navne og nogle få debug symboler. Dette vil kunne hjælpe jer med at finde ud af hvilke funktioner vi kommer til at kalde med vores payload og derved letter kunne debugge jeres payload.
