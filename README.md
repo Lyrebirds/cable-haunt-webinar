@@ -1,4 +1,4 @@
-# cable-haunt-webinar
+# Cable Haunt Webinar
 
 Dette er vores git repository med alt materiale nødvendigt til ida's webinar om cablehaunt.
 
